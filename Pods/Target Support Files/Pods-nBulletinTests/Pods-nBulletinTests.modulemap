@@ -1,0 +1,6 @@
+framework module Pods_nBulletinTests {
+  umbrella header "Pods-nBulletinTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

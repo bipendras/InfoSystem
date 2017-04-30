@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G31" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Album" representedClassName="Album" syncable="YES" codeGenerationType="class">
+        <attribute name="created_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image_thumb" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Contact" representedClassName="Contact" syncable="YES" codeGenerationType="class">
+        <attribute name="contact" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="designation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="image_thumb" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Event" representedClassName="Event" syncable="YES" codeGenerationType="class">
+        <attribute name="background_color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descripson" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="end_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="end_time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="is_all_day" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="start_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="start_time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="File" representedClassName="File" syncable="YES" codeGenerationType="class">
+        <attribute name="created_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extenson" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="file" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Gallery" representedClassName="Gallery" syncable="YES" codeGenerationType="class">
+        <attribute name="cover_image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Gmessage" representedClassName="Gmessage" syncable="YES" codeGenerationType="class">
+        <attribute name="created_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="from" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="News" representedClassName="News" syncable="YES" codeGenerationType="class">
+        <attribute name="created_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image_thumb" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Notice" representedClassName="Notice" syncable="YES" codeGenerationType="class">
+        <attribute name="created_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Pmessage" representedClassName="Pmessage" syncable="YES" codeGenerationType="class">
+        <attribute name="created_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="from" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Profile" representedClassName="Profile" syncable="YES" codeGenerationType="class">
+        <attribute name="api_token" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contact" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dob_ad" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dob_bs" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="full_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="permanent_address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="routine" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="temporary_address" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Resource" representedClassName="Resource" syncable="YES" codeGenerationType="class">
+        <attribute name="created_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Album" positionX="-18" positionY="117" width="128" height="120"/>
+        <element name="Contact" positionX="-36" positionY="90" width="128" height="165"/>
+        <element name="Event" positionX="-36" positionY="99" width="128" height="180"/>
+        <element name="File" positionX="-54" positionY="54" width="128" height="180"/>
+        <element name="Gallery" positionX="-36" positionY="108" width="128" height="120"/>
+        <element name="News" positionX="-54" positionY="27" width="128" height="150"/>
+        <element name="Notice" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="Pmessage" positionX="-36" positionY="126" width="128" height="120"/>
+        <element name="Profile" positionX="-36" positionY="108" width="128" height="210"/>
+        <element name="Resource" positionX="-45" positionY="99" width="128" height="120"/>
+        <element name="Gmessage" positionX="-36" positionY="126" width="128" height="120"/>
+    </elements>
+</model>
